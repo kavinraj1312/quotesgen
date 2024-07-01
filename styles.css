@@ -1,0 +1,70 @@
+body {
+    background-image: url('./image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    overflow-y:hidden;
+}
+
+.container {
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+#main-heading {
+    margin-left: 550px;
+    width: 400px;
+    margin-top: 200px;
+    background-color: #007bff; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow */
+}
+
+.content {
+    margin-left: 550px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+    background-color: #f2f2f2; /* Light grey background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow */
+    padding: 25px;
+    line-height: 2rem;
+}
+
+.quote {
+    font-style: italic;
+    font-size: larger;
+    margin-bottom: 1rem; /* Added margin for spacing */
+}
+
+.author {
+    text-transform: capitalize;
+    color: #FF6347; /* Tomato color */
+    font-weight: bold;
+}
+.category{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.btn {
+    color: white;
+    background-color: #007bff; /* Blue button */
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure inline display */
+    margin-top: 1rem; /* Added margin for spacing */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
